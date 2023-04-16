@@ -1,0 +1,1 @@
+Praca zaliczeniona na przedmiot Projektowanie Nowoczesnych Aplikacji Frontendowych
