@@ -1,0 +1,36 @@
+/* Navbar.css */
+.navbar {
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  
+  .navbar > ul
+  {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+
+  }
+
+  
+  li {
+    margin-right: 10px;
+  }
+  
+  a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: #ccc;
+  }
+  

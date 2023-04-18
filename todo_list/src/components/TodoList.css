@@ -1,0 +1,71 @@
+.todo-list-container {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .todo-list-container h1 {
+    text-align: center;
+  }
+  
+  .todo-list-container form {
+    margin-bottom: 16px;
+  }
+  
+  .todo-list-container form input {
+    width: 100%;
+    padding: 8px;
+  }
+  
+  .todo-list-container form button {
+    display: block;
+    margin-top: 8px;
+    padding: 8px;
+    width: 100%;
+    background-color: #4caf50;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .todo-list-container ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .todo-list-container ul li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .todo-list-container ul li:last-child {
+    border-bottom: none;
+  }
+  
+  .todo-list-container ul li div {
+    display: flex;
+    align-items: center;
+  }
+  
+  .todo-list-container ul li div span {
+    margin-right: 8px;
+  }
+  
+  .todo-list-container .completed-todo-list {
+    margin-top: 16px;
+    color: #777;
+  }
+  
+  .todo-list-container .completed-todo-text {
+    text-decoration: line-through;
+    color: #777;
+  }
+  
+  .todo-list-container .todo-date, .todo-end-date,
+  .todo-list-container .completed-todo-date {
+    color: #777;
+    font-size: 12px;
+  }
+  

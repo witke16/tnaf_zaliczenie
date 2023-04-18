@@ -1,0 +1,22 @@
+/* About.css */
+.about-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+  }
+  .helper-image {
+    max-width: 120%; /* Set the maximum width of the image to 100% */
+    height: auto; /* Automatically adjust the height to maintain the aspect ratio */
+    margin-right: 20px; /* Set the right margin to add spacing between the image and text */
+  }
