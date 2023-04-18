@@ -1,3 +1,20 @@
+Witold Weiner 308220
+
+
+Todo List - Prosta aplikacja w React
+Todo List to prosta aplikacja webowa zbudowana w technologii React, która pozwala użytkownikom tworzyć, zarządzać i śledzić swoje zadania w formie listy. Aplikacja zapewnia łatwy w obsłudze interfejs do dodawania  oraz oznaczania zadań jako ukończone. Do tego wyświetla czas, jaki upłynął od utworzenia zadania, albo daty rozpoczęcia i zakończenia zadania. 
+
+Wykorzystane technologie
+W rozwoju tej aplikacji wykorzystano następujące technologie:
+
+React: Popularna biblioteka JavaScript do budowy interfejsów użytkownika.
+react-router-dom: Biblioteka do obsługi routingu (nawigacji) w aplikacjach opartych na React. Wykorzystana w celu nawigacji między stronami Todo List, About i Contact. 
+CSS: Do stylizacji interfejsu użytkownika aplikacji.
+Jest i React Testing Library: Narzędzia do testowania komponentów React w celu zapewnienia jakości i niezawodności aplikacji.
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
