@@ -17,6 +17,11 @@ CSS: Do stylizacji interfejsu użytkownika aplikacji.
 
 Jest i React Testing Library: Narzędzia do testowania komponentów React w celu zapewnienia jakości i niezawodności aplikacji.
 
+Korzystanie: 
+Należy wejść na strone: https://witke16.github.io/tnaf_zaliczenie/
+
+w przypadku chęci skorzystania z plików lokalnie należy przeczytać poniższą dokumentację, wygenerowaną przez React:
+
 
 
 
