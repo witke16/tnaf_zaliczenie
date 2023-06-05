@@ -17,6 +17,8 @@ CSS: Do stylizacji interfejsu użytkownika aplikacji.
 
 Jest i React Testing Library: Narzędzia do testowania komponentów React w celu zapewnienia jakości i niezawodności aplikacji.
 
+Canvas: element HTML5, który umożliwia renderowanie grafiki i tworzenie interaktywnych animacji przy użyciu JavaScript. Stworzono animację symulującą Ziemię i Księżyc.
+
 Korzystanie: 
 Należy wejść na strone: https://witke16.github.io/tnaf_zaliczenie/
 
