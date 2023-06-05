@@ -1,13 +1,14 @@
 {
   "files": {
     "main.css": "/tnaf_zaliczenie/static/css/main.bed9b21d.css",
-    "main.js": "/tnaf_zaliczenie/static/js/main.d66d53fd.js",
+    "main.js": "/tnaf_zaliczenie/static/js/main.997d9201.js",
+    "static/media/earth.jpg": "/tnaf_zaliczenie/static/media/earth.8c00982c89f7cc285965.jpg",
     "index.html": "/tnaf_zaliczenie/index.html",
     "main.bed9b21d.css.map": "/tnaf_zaliczenie/static/css/main.bed9b21d.css.map",
-    "main.d66d53fd.js.map": "/tnaf_zaliczenie/static/js/main.d66d53fd.js.map"
+    "main.997d9201.js.map": "/tnaf_zaliczenie/static/js/main.997d9201.js.map"
   },
   "entrypoints": [
     "static/css/main.bed9b21d.css",
-    "static/js/main.d66d53fd.js"
+    "static/js/main.997d9201.js"
   ]
 }
