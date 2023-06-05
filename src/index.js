@@ -12,6 +12,7 @@ ReactDOM.render(
     <Navbar />
     <Routes>
       <Route exact path="/" element={<TodoList/>} />
+      <Route path="/tnaf_zaliczenie" element={<TodoList/>} />
       <Route path="/about" element={<About/>} />
       <Route path="/contact" element={<Contact/>} />
     </Routes>
