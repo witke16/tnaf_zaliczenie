@@ -1,5 +1,6 @@
 import React, { useRef, useEffect } from 'react';
 import './About.css';
+import earthImage from '../earth.jpg';
 
 const About = () => {
   const canvasRef = useRef(null);
@@ -9,12 +10,12 @@ const About = () => {
     const ctx = canvas.getContext('2d');
     let animationFrameId;
     let angle = 0;
-    const earthRadius = 50;
+    const earthRadius = 60;
     const moonRadius = 15;
 
     const resizeCanvas = () => {
-      canvas.width = window.innerWidth;
-      canvas.height = window.innerHeight;
+      canvas.width = window.innerWidth * 0.8;
+      canvas.height = window.innerHeight * 0.8;
     };
 
     resizeCanvas();
@@ -24,8 +25,8 @@ const About = () => {
     function draw() {
       ctx.clearRect(0, 0, canvas.width, canvas.height);
 
-      const centerX = (canvas.width / 4)-50;
-      const centerY = 50+canvas.height / 4;
+      const centerX = canvas.width / 3;
+      const centerY = canvas.height / 3;
       const orbitRadius = Math.min(canvas.width, canvas.height) / 4;
 
       // Rysowanie większego koła w tle
@@ -38,10 +39,15 @@ const About = () => {
       // Rysowanie Ziemi
       const earthX = centerX;
       const earthY = centerY;
+      ctx.save();
       ctx.beginPath();
       ctx.arc(earthX, earthY, earthRadius, 0, Math.PI * 2);
-      ctx.fillStyle = 'blue';
-      ctx.fill();
+      ctx.closePath();
+      ctx.clip();
+      const earthImg = new Image();
+      earthImg.src = earthImage;
+      ctx.drawImage(earthImg, earthX - earthRadius, earthY - earthRadius, earthRadius * 2, earthRadius * 2);
+      ctx.restore();
 
       // Rysowanie Księżyca
       const moonX = centerX + Math.cos(angle) * orbitRadius;
